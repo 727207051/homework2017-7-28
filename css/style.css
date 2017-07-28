@@ -1,0 +1,41 @@
+body,h1,h2,h3,h4,div,header/*头标签*/,nav/*导航标签*/,section/*分块标签*/,footer,ul,li,ol,dl,dt,dd,form,table,tr,td,img,a,span,a,em,i,strong,b,;label,input,select,option,textarea{margin: 0;padding: 0;}
+body,h1,h2,h3,h4,div,ul,ol,li,dl,dt,dd,form,a,img,span,em,i,strong,b,p{
+	margin: 0;padding: 0;
+	}
+li{list-style: none;}
+a{color: #fff;text-decoration: none;}
+a:hover{color: #fff;}
+html{font-size:625%;}/*为了方便换算rem，把父级字体做成100px（rem单位以html作参考）*/
+body{min-width: 320px; max-width: 750px;margin: 0 auto; font-size:0.3rem;/*初始字体大小*/margin: 0 auto;font-family:"微软雅黑";
+background:#080809 url(../images/bg.jpg) no-repeat center top / 100% auto;}/*min-效果图多大就设置多大*/
+.clearfix:before,.clearfix:after{
+	content: " ";
+	display: table;
+	}
+.clearfix:after{
+	clear: both;
+	}
+
+
+.tit{line-height: 0.4rem;text-align: center;font-size: 0.3rem;color: #fff;background: url(../images/tit-bg.png) no-repeat 0 0 / 100% auto;margin-top: 7.73rem;}
+.input{margin: 0.5rem 0 0 0.6rem;}
+.input li{font-size: 0.36rem; width: 6.9rem;color: #ffffff;line-height: 0.87rem;}
+label{float: left;}
+input{width:4.78rem; height: 0.7rem;border: 0;border-radius: 0.05rem;float: left;margin-top: 0.11rem; padding-left: 0.1rem;}
+.identifying{width: 2.15rem;}
+.identifying-button{color: #FFFFFFF;font-size: 0.3rem; background: #a50000;width: 2.4rem;height: 0.7rem;float: left;line-height:0.7rem;margin-top: 0.11rem;
+border-radius: 0.04rem;margin-left: 0.2rem;text-align: center;}
+.identifying-button:hover{opacity: 0.8;}
+.QQ{padding-left: 0.49rem;}
+button{font-size: 0.48rem;font-weight: 600;text-align: center;background:#080809 url(../images/button-bg.png) center top no-repeat; width: 4.12rem;height: 1.14rem;
+color: white;border: 0;margin-left: 1.67rem;margin-top: 0.42rem;}
+p{color: #a7b1b4;font-size: 0.36rem;text-align: center;font-weight: 600;margin-top: 0.5rem;margin-bottom: 0.24rem;}
+.image{width: 6.7rem; height: 2.34rem;margin-bottom: 1.45rem;margin-left: 0.4rem;margin-right: 0.4rem;}
+.image .img1,.image .img2{height: 2.32rem; width:3.22rem;border:#4c4c4c 0.01rem solid;}
+.img1{float: left;}
+.img2{float: left;margin-left: 0.2rem;}
+.box-shadow-2{  
+  -webkit-box-shadow:inset 0 0 0.1rem #b5b5b5;  
+  -moz-box-shadow:inset 0 0 0.1rem #b5b5b5;  
+  box-shadow:inset 0 0 0.1rem #b5b5b5;  
+} 
