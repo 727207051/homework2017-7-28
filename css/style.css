@@ -27,7 +27,7 @@ input{width:4.78rem; height: 0.7rem;border: 0;border-radius: 0.05rem;float: left
 border-radius: 0.04rem;margin-left: 0.2rem;text-align: center;}
 .identifying-button:hover{opacity: 0.8;}
 .QQ{padding-left: 0.49rem;}
-button{font-size: 0.48rem;font-weight: 600;text-align: center;background:#080809 url(../images/button-bg.png) center top no-repeat; width: 4.12rem;height: 1.14rem;
+button{font-size: 0.48rem;font-weight: 600;text-align: center;background:#080809 url(../images/button-bg.png) center top no-repeat /100% auto;; width: 4.12rem;height: 1.14rem;
 color: white;border: 0;margin-left: 1.67rem;margin-top: 0.42rem;}
 p{color: #a7b1b4;font-size: 0.36rem;text-align: center;font-weight: 600;margin-top: 0.5rem;margin-bottom: 0.24rem;}
 .image{width: 6.7rem; height: 2.34rem;margin-bottom: 1.45rem;margin-left: 0.4rem;margin-right: 0.4rem;}
